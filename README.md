@@ -24,7 +24,7 @@ Como o projeto ainda está em uma fase inicial rodará em uma versão simplifica
 
 - Instalar os seguintes pacotes: **git**, **nodejs** e o **docker**.
 
-- Clonar os repositórios [d-cloud-broker-api](https://github.com/albbassi/d-cloud-broker-api.git) e [d-cloud-broker-front-react-vite](https://github.com/albbassi/cloud-broker-front-react-vite.git).
+- Clonar os repositórios [d-cloud-broker-api](https://github.com/albbassi/d-cloud-broker-api.git) e [d-cloud-broker-front-react-vite](https://github.com/albbassi/d-cloud-broker-front-react-vite.git).
 
 
 ## Arquitetura ##
@@ -37,16 +37,16 @@ A aplicação principal é responsável pela interface do usuário, permitindo q
 Aplicação Principal (Front-end) : Responsável pela interface do usuário.Faz chamadas às APIs para obter e enviar dados e à API interna para persistência dos dados.
 
 APIs Externas: 
-- API Externa 1: VIA CEP  traz o endereço completo de através do CEP. 
-- API Externa 2: Olinda BC informa a cotação do dólar 
+- API Externa 1: VIA CEP retorna um endereço completo a partir de um CEP. 
+- API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial
 
 Ambas as APIs externas podem ser acessadas via URLs específicas e retornam dados no formato JSON.
 
-API Interna: Desenvolvida para gerenciar a persistência de dados e utiliza OpenAPI, Flask e Sql Alchemy. Esta API interage diretamente com um banco de dados (sqlite3) para armazenar e recuperar informações relevantes para a aplicação.
+API Interna: Desenvolvida para gerenciar a persistência de dados. Utiliza as tecnologias OpenAPI, Flask e Sql Alchemy. Esta API interage diretamente com um banco de dados (sqlite3) para armazenar e recuperar informações relevantes para a aplicação.
 
 Execução em Containers Docker
 
-O Frontend e a API de dados são executados em containers Docker, o que proporciona um ambiente isolado e consistente para cada parte da aplicação.
+O Frontend e a API de dados são executados em containeres Docker, o que proporciona um ambiente isolado e consistente para cada parte da aplicação.
 
 
 Como vantagens do Docker podemos citar: 
@@ -75,7 +75,7 @@ A interação entre a aplicação front-end e as APIs, tanto externas quanto int
 
 - Inicialize a aplicação de backend que tem seu passo a passo descrito [aqui](https://github.com/albbassi/cloud-broker-api).
 
-- Assim que o servidor de backend estiver ativo, navegue até a pasta onde a aplicação cloud-broker-front-react-vite foi clonada e execute o comando abaixo que vai gera o build do código e gerar a imagem necessária à execução do frontend:
+- Assim que o servidor de backend estiver ativo, navegue até a pasta onde a aplicação d-cloud-broker-front-react-vite foi clonada e execute o comando abaixo que vai gera o build do código e gerar a imagem necessária à execução do frontend:
 
 ``` docker build -t d-cloud-broker-react-vite . ```
 
