@@ -67,7 +67,7 @@ As APIs respondem às requisições com os dados apropriados, e a aplicação fr
 Considerações Finais
 A interação entre a aplicação front-end e as APIs, tanto externas quanto internas, é fundamental para a experiência do usuário e para a funcionalidade do sistema. Com o uso de containers Docker, a aplicação ganha em portabilidade, escalabilidade e facilidade de manutenção, permitindo que a equipe se concentre no desenvolvimento de novas funcionalidades e na melhoria contínua do sistema.
 
-![Arquitetura](d-cloud-broker-front-react-vite/public/arquitetura.gif)
+![Arquitetura](./arquitetura.gif)
 
 ---
 
