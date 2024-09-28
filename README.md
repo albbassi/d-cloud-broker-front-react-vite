@@ -36,8 +36,9 @@ A aplicação principal é responsável pela interface do usuário, permitindo q
 
 Aplicação Principal (Front-end) : Responsável pela interface do usuário.Faz chamadas às APIs para obter e enviar dados e à API interna para persistência dos dados.
 
-APIs Externas: API Externa 1: VIA CEP  traz o endereço completo de através do CEP. 
-API Externa 2: Olinda BC informa a cotação do dólar 
+APIs Externas: 
+- API Externa 1: VIA CEP  traz o endereço completo de através do CEP. 
+- API Externa 2: Olinda BC informa a cotação do dólar 
 
 Ambas as APIs externas podem ser acessadas via URLs específicas e retornam dados no formato JSON.
 
