@@ -29,6 +29,9 @@ Como o projeto ainda está em uma fase inicial rodará em uma versão simplifica
 
 ## Arquitetura ##
 
+![Arquitetura Sistema](arquitetura.gif)
+
+
 ### Estrutura da Aplicação ###
 A aplicação principal é responsável pela interface do usuário, permitindo que os usuários interajam com o sistema. Ela foi desenvolvida com React, Vite e MIU. A comunicação com as APIs é feita através de requisições HTTP, utilizando métodos como GET, POST, PUT e DELETE.
 
