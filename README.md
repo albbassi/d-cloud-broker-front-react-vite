@@ -38,8 +38,7 @@ Aplicação Principal (Front-end) : Responsável pela interface do usuário.Faz 
 
 APIs Externas: 
 - API Externa 1: VIA CEP retorna um endereço completo a partir de um CEP. (https://viacep.com.br/) 
-- API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial (https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao=''&$top=100&$format=json
-)
+- API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial (https://olinda.bcb.gov.br/olinda/servico/PTAX)
  
 Ambas as APIs externas podem ser acessadas via URLs específicas e retornam dados no formato JSON.
 
