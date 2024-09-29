@@ -37,10 +37,10 @@ A aplicação principal é responsável pela interface do usuário, permitindo q
 Aplicação Principal (Front-end) : Responsável pela interface do usuário.Faz chamadas às APIs para obter e enviar dados e à API interna para persistência dos dados.
 
 APIs Externas: 
-- API Externa 1: VIA CEP retorna um endereço completo a partir de um CEP.
-  LINK (https://viacep.com.br/) 
-- API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial
-
+- API Externa 1: VIA CEP retorna um endereço completo a partir de um CEP. (https://viacep.com.br/) 
+- API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial (https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao=''&$top=100&$format=json
+)
+ 
 Ambas as APIs externas podem ser acessadas via URLs específicas e retornam dados no formato JSON.
 
 API Interna: Desenvolvida para gerenciar a persistência de dados. Utiliza as tecnologias OpenAPI, Flask e Sql Alchemy. Esta API interage diretamente com um banco de dados (sqlite3) para armazenar e recuperar informações relevantes para a aplicação.
