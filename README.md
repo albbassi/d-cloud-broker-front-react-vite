@@ -75,7 +75,7 @@ A interação entre a aplicação front-end e as APIs, tanto externas quanto int
 
 - Inicialize a aplicação de backend que tem seu passo a passo descrito [aqui](https://github.com/albbassi/d-cloud-broker-api).
 
-- Assim que o servidor de backend estiver ativo, navegue até a pasta onde a aplicação d-cloud-broker-front-react-vite foi clonada e execute o comando abaixo que vai gera o build do código e gerar a imagem necessária à execução do frontend:
+- Assim que o servidor de backend estiver ativo, navegue até a pasta onde a aplicação d-cloud-broker-front-react-vite foi clonada e execute o comando abaixo. Este comando fará o build do código gerarando a imagem necessária à execução do frontend:
 
 ``` docker build -t d-cloud-broker-react-vite . ```
 
