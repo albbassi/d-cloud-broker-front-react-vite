@@ -29,7 +29,7 @@ Como o projeto ainda está em uma fase inicial rodará em uma versão simplifica
 
 ## Arquitetura ##
 
-![Arquitetura Sistema](arquitetura.gif)
+![Arquitetura Sistema](arquiteturaFinal.gif)
 
 
 
