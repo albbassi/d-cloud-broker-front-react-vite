@@ -39,6 +39,7 @@ Aplicação Principal (Front-end) : Responsável pela interface do usuário.Faz 
 APIs Externas: 
 - API Externa 1: VIA CEP retorna um endereço completo a partir de um CEP. (https://viacep.com.br/) 
 - API Externa 2: Olinda do Banco Central retorna a cotação diária do dólar oficial (https://olinda.bcb.gov.br/olinda/servico/PTAX)
+- API Externa 3: Fake Store simula uma lista de produtos para compra (https://fakestoreapi.com/)
  
 Ambas as APIs externas podem ser acessadas via URLs específicas e retornam dados no formato JSON.
 
